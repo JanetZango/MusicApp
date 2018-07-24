@@ -1,0 +1,25 @@
+<ion-content class="back">
+  <h2 style="color:white" id="menu" align="center">World Of Music</h2>
+  <div class="con">
+   
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label clearInput>FIRSTNAME:</ion-label>
+            <ion-input type="text" #username></ion-input>
+          </ion-item>
+        </div>
+      </div>
+      <br>
+      <div class="flex">
+        <div class="container">
+          <ion-item id="item">
+            <ion-label clearInput>LASTNAME:</ion-label>
+            <ion-input type="text" #lastname></ion-input>
+          </ion-item>
+        </div>
+      </div>
+      <button ion-button color="dark" (click)="add(username.value,lastname.value)">Login</button>
+ 
+  </div>
+</ion-content>

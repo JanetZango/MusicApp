@@ -1,0 +1,44 @@
+page-home {
+.back{
+    background: url('../../assets/m.jpg');
+    background-attachment: fixed;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.con{
+    margin-top:65%;
+}
+
+ion-item#item{
+    background-color: rgba(0, 0, 0, 0.459);
+    color:white;
+    
+   
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    max-width:100%;
+
+}
+h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+font-size:3em;
+}
+.button{
+    margin-left:30%;
+    width:40%;
+    color:white;
+    font-size:x-large;
+    background-color: rgba(0, 0, 0, 0.699);
+    box-shadow: 2px 2px 4px white;
+    margin-top:10%;
+}
+
+h2{
+    animation: 3s ease rollIn;
+}
+
+}
